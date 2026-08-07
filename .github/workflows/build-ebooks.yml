@@ -1,0 +1,32 @@
+name: Build ebooks
+
+on:
+  push:
+    branches: [main]
+    paths: ['manuscript/**', 'assets/**', 'tools/**']
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install markdown
+
+      - name: Build EPUB
+        run: python tools/build_epub.py
+
+      - name: Build PDF (headless Chrome)
+        run: python tools/build_pdf.py
+
+      - name: Upload ebooks as artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ebooks
+          path: downloads/*
