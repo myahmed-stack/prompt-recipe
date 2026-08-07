@@ -1,0 +1,15 @@
+name: Sync Pages branch
+
+# GitHub Pages serves the gh-pages branch; keep it mirroring main.
+on:
+  push:
+    branches: [main]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - run: git push origin HEAD:gh-pages --force
