@@ -10,7 +10,7 @@
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-**[📖 Read online](https://YOUR-GITHUB-USERNAME.github.io/the-prompt-recipe/)** · **[⬇️ EPUB](downloads/the-prompt-recipe.epub)** · **[⬇️ PDF](downloads/the-prompt-recipe.pdf)**
+**[📖 Read online](https://myahmed-stack.github.io/prompt-recipe/)** · **[⬇️ EPUB](downloads/the-prompt-recipe.epub)** · **[⬇️ PDF](downloads/the-prompt-recipe.pdf)**
 
 </div>
 
@@ -55,7 +55,7 @@ This is not a list of "magic prompts" to memorize. It's a method you'll actually
 
 ## Formats
 
-- **Web** — read it in your browser: [online version](https://YOUR-GITHUB-USERNAME.github.io/the-prompt-recipe/)
+- **Web** — read it in your browser: [online version](https://myahmed-stack.github.io/prompt-recipe/)
 - **EPUB** — for e-readers: [`downloads/the-prompt-recipe.epub`](downloads/the-prompt-recipe.epub)
 - **PDF** — print-ready layout: [`downloads/the-prompt-recipe.pdf`](downloads/the-prompt-recipe.pdf)
 - **Markdown** — the full source, one file per chapter, in [`manuscript/`](manuscript/)

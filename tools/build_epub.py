@@ -21,8 +21,7 @@ AUTHOR = 'Ahmed Bouchentouf'
 PUBLISHER = 'Bread Books'
 LANG = 'en'
 MODIFIED = '2026-08-07T00:00:00Z'
-# Set to the public GitHub URL once the repo exists, then rebuild.
-REPO_URL = ''
+REPO_URL = 'https://github.com/myahmed-stack/prompt-recipe'
 
 BOOK_ID = str(uuid.uuid5(uuid.NAMESPACE_URL, 'the-prompt-recipe/ahmed-bouchentouf/cc-edition'))
 

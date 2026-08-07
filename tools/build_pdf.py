@@ -18,8 +18,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'downloads', 'the-prompt-recipe.pdf')
 
 AUTHOR = 'Ahmed Bouchentouf'
-# Set to the public GitHub URL once the repo exists, then rebuild.
-REPO_URL = ''
+REPO_URL = 'https://github.com/myahmed-stack/prompt-recipe'
 
 CHAPTERS = [
     '00-introduction',
